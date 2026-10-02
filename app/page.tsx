@@ -145,6 +145,13 @@ export default function Home() {
             className={`hidden items-center gap-8 text-sm md:flex ${theme.muted}`}
           >
             <Link
+              href="/"
+              className="font-semibold text-violet-600"
+            >
+              Home
+            </Link>
+
+            <Link
               href="/transform"
               className="transition hover:text-violet-600"
             >
@@ -158,6 +165,12 @@ export default function Home() {
               Verify
             </Link>
 
+            <Link
+              href="/blockchain"
+              className="transition hover:text-violet-600"
+            >
+              Chain Integrity
+            </Link>
 
             <a
               href="#possibilities"

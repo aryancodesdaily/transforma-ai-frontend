@@ -952,6 +952,13 @@ export default function TransformPage() {
               Verify
             </Link>
 
+            <Link
+              href="/blockchain"
+              className="transition hover:text-violet-600"
+            >
+              Chain Integrity
+            </Link>
+
 
             <Link
               href="/#possibilities"
